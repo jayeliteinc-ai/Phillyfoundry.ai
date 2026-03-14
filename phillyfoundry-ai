@@ -1,0 +1,49 @@
+phillyfoundry-ai
+│
+├── app
+│   ├── page.js
+│   ├── dashboard
+│   │   └── page.js
+│   ├── tools
+│   │   └── page.js
+│   ├── agents
+│   │   └── page.js
+│   └── login
+│       └── page.js
+│
+├── components
+│   ├── Sidebar.js
+│   ├── Topbar.js
+│   ├── ToolCard.js
+│   └── AgentCard.js
+│
+├── api
+│   ├── ai.js
+│   ├── leadAgent.js
+│   └── workflow.js
+│
+├── agents
+│   ├── marketingAgent.js
+│   ├── seoAgent.js
+│   ├── contentAgent.js
+│   └── salesAgent.js
+│
+├── tools
+│   ├── blogGenerator.js
+│   ├── emailWriter.js
+│   ├── adGenerator.js
+│   └── seoOptimizer.js
+│
+├── automations
+│   └── dailyLeadFinder.js
+│
+├── lib
+│   └── aiClient.js
+│
+├── styles
+│   └── globals.css
+│
+├── public
+│   └── logo.png
+│
+└── README.md
