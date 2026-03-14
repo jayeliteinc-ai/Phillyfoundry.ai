@@ -1,5 +1,5 @@
 export default async function handler(req, res) {
-  const prompt = req.body.prompt;
+  const { prompt } = req.body;
 
   const response = await fetch("https://api.openai.com/v1/chat/completions", {
     method: "POST",
@@ -14,6 +14,5 @@ export default async function handler(req, res) {
   });
 
   const data = await response.json();
-
-  res.json(data);
+  res.status(200).json(data);
 }
